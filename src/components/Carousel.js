@@ -10,16 +10,18 @@ const ImageCarousel = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 4,
+        slidesToScroll: 1.5
     };
 
     const images = [
-        "https://image.shutterstock.com/image-photo/beautiful-details-nature-morning-dew-260nw-2473212807.jpg",
-        "https://cdn.stocksnap.io/img-thumbs/280h/dock-lake_UBHIXTOCI7.jpg",
-        "https://cdn.stocksnap.io/img-thumbs/280h/evergreen-tree_B8TK393LXX.jpg",
-        "https://cdn.stocksnap.io/img-thumbs/280h/lake-mountains_VZBJUVPO25.jpg",
-        "https://cdn.stocksnap.io/img-thumbs/280h/NX6XW0ECSK.jpg"
+        "https://i.pinimg.com/564x/17/34/fb/1734fbd295732e042e90f47cbfbab554.jpg",
+        "https://i.pinimg.com/564x/a2/59/07/a2590783323a4d3dcaf235fb0ae7c295.jpg",
+        "https://i.pinimg.com/564x/15/9e/29/159e29c9942128a53540210322257cd7.jpg",
+        "https://i.pinimg.com/736x/cd/d0/bb/cdd0bbb9017ea3616fb24277174f0fdb.jpg",
+        "https://i.pinimg.com/564x/89/6f/03/896f03995b0e9852f5bdf494a60b6f28.jpg",
+        "https://i.pinimg.com/564x/58/44/c6/5844c66cc850ad6a47154c448e72438c.jpg"
+    
     ];
 
     return (
